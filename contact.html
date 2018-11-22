@@ -143,36 +143,36 @@
                                 </div>
                             </div>
                         </div>
-                        <form action="#">
+                        <form action="send_mail.php" method="POST">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="name2" placeholder="Vaše ime *" required>
+                                        <input type="text" class="form-control" id="name2" name="first_name" placeholder="Vaše ime *" required>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="email" class="form-control" id="email2" placeholder="Vaša e-mail adresa *" required>
+                                        <input type="email" class="form-control" id="email2" name="email" placeholder="Vaša e-mail adresa *" required>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="tel" class="form-control" id="mobilenumber" placeholder="Broj telefona *" required>
+                                        <input type="tel" class="form-control" id="mobilenumber" name="telephone" placeholder="Broj telefona *" required>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="Subject2" placeholder="Naslov *" required>
+                                        <input type="text" class="form-control" id="Subject2" name="" placeholder="Naslov *" required>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <textarea class="form-control" id="messages2" rows="3" placeholder="Vaša poruka *" required></textarea>
+                                        <textarea class="form-control" id="messages2" name="comments" rows="3" placeholder="Vaša poruka *" required></textarea>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="submit-btn text-right">
-                                        <button>Pošalji</button>
+                                        <button type="submit">Pošalji</button>
                                     </div>
                                 </div>
                             </div>
@@ -185,56 +185,6 @@
     <!-- contact page area end here -->
     <!-- footer start here -->
     <footer class="footer-area">
-        <div class="footer-top section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-6 col-md-offset-3 text-center">
-                        <div class="footer-logo">
-                            <a href="index.html">
-                                <img src="assets/images/footer-logo.png" alt="xplor">
-                            </a>
-                        </div>
-                        <div class="footer-top-content">
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. in a piece of classical Latin
-                                literature from 45 BC, making it over 2000 years old.</p>
-                        </div>
-                        <div class="submit-form">
-                            <form action="#">
-                                <div class="form-group">
-                                    <label for="email" class="fa fa-envelope-o"></label>
-                                    <input type="email" class="form-control" id="email" placeholder="Enter your email address" name="email">
-                                    <button>Submit</button>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="footer-social-media">
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <i class="flaticon-social"></i>
-                                    </a>
-                                </li>
-                                <li class="active">
-                                    <a href="#">
-                                        <i class="flaticon-social-1"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="flaticon-social-media"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="flaticon-social-media-1"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="footer-bottom">
             <div class="container">
                 <div class="row">
