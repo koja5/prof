@@ -1,4 +1,5 @@
 <?php
+echo "We are very sorry, but there were error(s) found with the form you submitted. ";
 if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
